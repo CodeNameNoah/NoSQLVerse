@@ -22,6 +22,7 @@ For a detailed demonstration of NoSQLVerse's functionality, including user regis
 - [**Application Preview**](#Application-Preview)
 - [**Installation**](#installation)
 - [**Getting Started**](#Getting-Started)
+- [**Testing NoSQLVerse**](#Testing-NoSQLVerse)
 - [**Credits**](#Credits)
 - [**License**](#License)
 
