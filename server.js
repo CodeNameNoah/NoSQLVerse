@@ -1,16 +1,16 @@
-// Here I ran npm i express, mongoose, and moment
+// Importing the necessary modules
+const express = require("express"); // Express framework for building web applications
+const db = require("./config/connection"); // Database connection module
+const routes = require("./routes"); // Routes module for handling API endpoints
 
-const express = require("express");
-const db = require("./config/connection");
-const routes = require("./routes");
+const PORT = process.env.PORT || 3001; // Setting the port for the server to listen on
+const app = express(); // Creating an instance of the Express application
 
-const PORT = process.env.PORT || 3001;
-const app = express();
+app.use(express.urlencoded({ extended: true })); // Middleware to parse URL-encoded bodies
+app.use(express.json()); // Middleware to parse JSON bodies
+app.use(routes); // Using the routes module to handle API endpoints
 
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
-app.use(routes);
-
+// Establishing a connection to the database and starting the server
 db.once("open", () => {
   app.listen(PORT, () => {
     console.log(`API server currently running on port ${PORT}!`);
