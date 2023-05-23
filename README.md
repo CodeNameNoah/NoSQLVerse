@@ -12,6 +12,19 @@ NoSQLVerse API is a powerful backend solution for building social network web ap
 
 For a detailed demonstration of NoSQLVerse's functionality, including user registration, thought sharing, reactions, and friend list management, a walkthrough video has been created. You can access the video further down below in this readme.md
 
+---
+
+## Table of Contents
+
+- [**Key Features**](#Key-Features)
+- [**Languages and Technologies Used**](#Languages-and-Technologies-Used)
+- [**Developers**](#Developers)
+- [**Application Preview**](#Application-Preview)
+- [**Installation**](#installation)
+- [**Getting Started**](#Getting-Started)
+- [**Credits**](#Credits)
+- [**License**](#License)
+
 ## Key Features
 
 Thought Management: Users can create, read, update, and delete their thoughts. The API handles thought CRUD operations, ensuring that only the authorized user can perform actions on their thoughts. Thoughts are stored in a MongoDB database, allowing for efficient retrieval and manipulation.
@@ -19,7 +32,6 @@ Thought Management: Users can create, read, update, and delete their thoughts. T
 Reaction System: Users can react to their friends' thoughts by liking, disliking, or leaving comments. The API manages the reaction system, enabling users to express their feelings and opinions. The reaction data is stored alongside the thoughts, allowing for easy retrieval and aggregation.
 
 Friend List Management: Users can create and manage their friend lists, enabling them to connect with other users on the platform. The API provides endpoints to add friends, remove friends, and retrieve the friend list of a user.
-
 
 ---
 
@@ -41,20 +53,24 @@ Friend List Management: Users can create and manage their friend lists, enabling
 
 ---
 
-|   Collaborators    |                                                                                                                                  Socials                                                                                                                                   |
-| :----------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|    `Noah Hoang`    | [![Socials](https://skillicons.dev/icons?i=git)](https://github.com/codenamenoah) [![Socials](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/codenamenoah/) [![Socials](https://skillicons.dev/icons?i=twitter)](https://twitter.com/CodeNameNoahH) |
+## Developers
+
+| Collaborators |                                                                                                                                  Socials                                                                                                                                   |
+| :-----------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| `Noah Hoang`  | [![Socials](https://skillicons.dev/icons?i=git)](https://github.com/codenamenoah) [![Socials](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/codenamenoah/) [![Socials](https://skillicons.dev/icons?i=twitter)](https://twitter.com/CodeNameNoahH) |
 
 <p>&nbsp;</p>
 
-## Take A Look At My Application!
+## Application Preview
 
 - NoSQLVerse Tutorial - [NoSQLVerse Tutorial](https://www.youtube.com/watch?v=90Khu-0mxaY)
 
 - [![Watch the video](https://img.youtube.com/vi/90Khu-0mxaY/maxresdefault.jpg)](https://youtu.be/90Khu-0mxaY)
 
+---
 
-### Installation:
+
+## Installation:
 
 **To Clone My Repository Using CLI**
 
@@ -70,6 +86,31 @@ Friend List Management: Users can create and manage their friend lists, enabling
 
 ![github](https://user-images.githubusercontent.com/127361736/227422005-d28a9020-e331-4098-976b-df9c1e545bb4.png)
 
+## Getting Started
+To begin the installation process, first clone the GitHub Repository onto your local machine. After successfully cloning, open the root folder using the terminal. Execute the command "npm i" to install all the necessary modules and packages. Once the installation is finished, run "npm run dev" to start the server and commence the operation.
+
+![NoSQLVerse - Getting Started](https://github.com/CodeNameNoah/E-Commerce-Back-End-ORMs/assets/127361736/07bbdc46-6645-4b5c-89d7-da49ce827802)
+
+---
+
+
+
+## Testing NoSQLVerse
+Insomnia Core is employed to perform comprehensive testing on all API routes. The creation and testing of Users, Thoughts, and Reactions are carried out using POST, PUT, and DELETE routes. These functionalities operate seamlessly to effectively create, update, and delete data within the NoSQL database of the Social Network API. Here are some various sneak peaks of my API in use.
+
+### Creating User
+
+![NoSQLVerse - Creating User](https://github.com/CodeNameNoah/E-Commerce-Back-End-ORMs/assets/127361736/5a15cf1b-25d9-4373-88b8-88f6d78b09a0)
+
+### Creating Thought
+
+![NoSQLVerse - Creating Thought](https://github.com/CodeNameNoah/E-Commerce-Back-End-ORMs/assets/127361736/6d0f3968-7a89-4d5e-9a7f-a73aac0e8441)
+
+### Updating Thought
+
+![Updating Thought](https://github.com/CodeNameNoah/E-Commerce-Back-End-ORMs/assets/127361736/77140f7b-a837-451e-9d89-e27521ffdd49)
+
+
 
 ## Credits
 
@@ -81,8 +122,9 @@ Friend List Management: Users can create and manage their friend lists, enabling
 - Error in Sequelize: https://stackoverflow.com/questions/61515940/error-in-sequelize-name-sequelizeeagerloadingerror
 - Express Middleware: https://expressjs.com/en/guide/using-middleware.html
 
+---
 
-### License:
+## License:
 
 MIT License
 
